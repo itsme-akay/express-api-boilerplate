@@ -53,13 +53,3 @@ curl -X POST http://localhost:3000/api/users \
   -H "Content-Type: application/json" \
   -d '{"name": "John", "email": "john@example.com"}'
 ```
-
-## Push to Git
-
-```bash
-git init
-git add .
-git commit -m "initial commit: express api boilerplate"
-git remote add origin <your-repo-url>
-git push -u origin main
-```
